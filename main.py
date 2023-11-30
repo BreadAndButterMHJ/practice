@@ -20,4 +20,7 @@ plt.xticks(xLabel1, xLabel2)
 plt.subplot(2, 1, 2)
 plt.plot(t, y1)
 plt.xticks(xLabel1, xLabel2)
+
+plt.figure(3)
+plt.plot(t, t, 'r')
 plt.show()
